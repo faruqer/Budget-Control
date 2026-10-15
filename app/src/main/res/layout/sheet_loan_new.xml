@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp">
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_pill" />
+        <TextView
+            style="@style/Text.ScreenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/loan_new_title"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/person"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginHorizontal="24dp"
+            android:background="@drawable/bg_input_surface"
+            android:importantForAutofill="no"
+            android:paddingHorizontal="18dp"
+            android:singleLine="true"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_muted"
+            android:textSize="17sp"            android:layout_marginTop="18dp"
+            android:hint="@string/loan_person_hint"
+            android:inputType="textPersonName|textCapWords"
+            android:maxLength="24" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginHorizontal="24dp"
+            android:background="@drawable/bg_input_surface"
+            android:importantForAutofill="no"
+            android:paddingHorizontal="18dp"
+            android:singleLine="true"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_muted"
+            android:textSize="17sp"            android:layout_marginTop="10dp"
+            android:hint="@string/loan_amount_hint"
+            android:inputType="numberDecimal"
+            android:maxLength="10" />
+
+        <EditText
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginHorizontal="24dp"
+            android:background="@drawable/bg_input_surface"
+            android:importantForAutofill="no"
+            android:paddingHorizontal="18dp"
+            android:singleLine="true"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_muted"
+            android:textSize="17sp"            android:layout_marginTop="10dp"
+            android:hint="@string/loan_note_hint"
+            android:inputType="textCapSentences"
+            android:maxLength="40" />
+
+        <TextView
+            style="@style/Text.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/loans_hint" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginHorizontal="24dp"
+            android:textColor="?attr/onAccentColor"
+            app:backgroundTint="?attr/accentColor"
+            app:cornerRadius="16dp"            android:layout_marginTop="16dp"
+            android:text="@string/loan_lend" />    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

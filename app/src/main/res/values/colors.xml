@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Surfaces and ink. The page and its content share one background; hairlines do the separating. -->
+    <color name="bg">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_2">#F2F3F5</color>
+    <color name="outline">#E6E7EB</color>
+    <color name="text_primary">#0B0B0D</color>
+    <color name="text_secondary">#4D5260</color>
+    <color name="text_muted">#6B7080</color>
+
+    <!-- Colour themes. Each has a gradient (start to end) for the hero card, a solid for buttons,
+         the ink that goes on those fills, and an "ink" that stays readable on the app's surfaces.
+         The inks have their own values in values-night. -->
+    <color name="neon_start">#19E3F0</color>
+    <color name="neon_end">#3D9BFF</color>
+    <color name="neon_accent">#22D3EE</color>
+    <color name="neon_on">#07131F</color>
+    <color name="neon_ink">#0077B6</color>
+
+    <color name="electric_start">#2A5FF0</color>
+    <color name="electric_end">#8A4DFF</color>
+    <color name="electric_accent">#4A63FF</color>
+    <color name="electric_on">#FFFFFF</color>
+    <color name="electric_ink">#3D5BFF</color>
+
+    <color name="berry_start">#D11A8E</color>
+    <color name="berry_end">#7B3FF2</color>
+    <color name="berry_accent">#CC1D90</color>
+    <color name="berry_on">#FFFFFF</color>
+    <color name="berry_ink">#C2187F</color>
+
+    <color name="lagoon_start">#12E2A3</color>
+    <color name="lagoon_end">#12B5E5</color>
+    <color name="lagoon_accent">#14D9A5</color>
+    <color name="lagoon_on">#06201A</color>
+    <color name="lagoon_ink">#00806A</color>
+
+    <color name="mono_start">#2B2F3A</color>
+    <color name="mono_end">#0F1115</color>
+    <color name="mono_accent">#16181D</color>
+    <color name="mono_on">#FFFFFF</color>
+    <color name="mono_ink">#16181D</color>
+
+    <!-- Text on a surface filled with a theme's ink, e.g. the chosen day in the date picker -->
+    <color name="on_accent_ink">#FFFFFF</color>
+
+    <!-- Meter fill when the day is close to its limit -->
+    <color name="meter_warn">#F5A623</color>
+
+    <!-- Status colours for text on a surface -->
+    <color name="status_good">#1C7A1C</color>
+    <color name="status_warn">#8F5F00</color>
+    <color name="status_over">#C62F2F</color>
+
+    <!-- Chart marks that do not follow the colour theme -->
+    <color name="chart_muted">#AEB3BF</color>
+    <color name="chart_over">#D03B3B</color>
+    <color name="chart_grid">#E0E3EA</color>
+</resources>

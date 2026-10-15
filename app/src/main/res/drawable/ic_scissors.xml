@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lucide "scissors" icon, v1.53.0 (lucide.dev), ISC License. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+    <path
+        android:pathData="M3 6 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0 Z M8.12 8.12 L12 12 M20 4 L8.12 15.88 M3 18 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0 Z M14.8 14.8 L20 20"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

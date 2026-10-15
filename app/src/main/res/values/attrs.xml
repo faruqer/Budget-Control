@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The five colours a colour theme supplies. See the Theme.BudgetControl.* styles. -->
+
+    <!-- Solid fill for buttons, the selected tab and selected segments -->
+    <attr name="accentColor" format="color" />
+    <!-- The hero card's gradient, top left to bottom right -->
+    <attr name="accentStartColor" format="color" />
+    <attr name="accentEndColor" format="color" />
+    <!-- Text and icons on top of the three fills above -->
+    <attr name="onAccentColor" format="color" />
+    <!-- The accent as text, outlines and chart marks on the app's own surfaces -->
+    <attr name="accentInkColor" format="color" />
+</resources>

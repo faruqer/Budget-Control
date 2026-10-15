@@ -1,0 +1,13 @@
+# Android Build Outputs & Caches
+.gradle/
+app/build/
+build/
+*.apk
+
+# Local Configuration & Keystores
+local.properties
+keystore/
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
